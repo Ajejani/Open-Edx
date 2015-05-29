@@ -1,0 +1,29 @@
+
+Student Registration/Enrollment problem:
+
+Method 1: (1) Students will provide their email-ids to the teacher which they have registered in IIT BomabayX.
+          (2) We will provide a box at Dash Board where he will paste all the email ids.
+          (3) We will register all the email-ids for the course which he is teaching.
+          (4) For this we will make a new table and copy all the student's email and add three more columns "institute_ID", "Course_ID" and    "Teacher_ID".
+
+Pros : If a student have not enrolled himself then teacher can enroll him which is fine because anyhow he has to participate.
+Cons : If teacher has entered the wrong email Id which may somehow matches with other then there is a big problem.
+
+
+Method 2: (1) Students will provide their email-ids to the teacher which they have registered in IIT BomabayX.
+          (2) We will provide a feature in Dash Board where teacher will enter the email ids of all the students.
+          (3) Case 1 :   Student has not registered yet.  (Rare case)
+                         An automatic email will be sent through Dashboard to register and enroll in particular course.
+                         (Exception case)
+             
+              Case 2 :  Student has registered and enrolled in the given course.
+                        Send a request to accept the course under this Faculty.
+                        If he will accept the request, we will update database.
+
+              Case 3 :  Student has registered but not enrolled yet.
+                        Send a request to enroll in the course.
+
+
+Pros : All cases related to enrollment has been solved.
+Cons : What will happen if faculty has given wrong email ID which somehow matched with other student?????
+       
