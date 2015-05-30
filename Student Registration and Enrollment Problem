@@ -26,4 +26,5 @@ Method 2: (1) Students will provide their email-ids to the teacher which they ha
 
 Pros : All cases related to enrollment has been solved.
 Cons : What will happen if faculty has given wrong email ID which somehow matched with other student?????
+      (solution: As the Faculty is not directly added and asked for permission by the student if there is a mistake made by the teacher then the student can decline.) 
        
